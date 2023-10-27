@@ -41,7 +41,7 @@ const AddBudgetForm: React.FC = () => {
             step="0.01"
             name="newBudgetAmount"
             id="newBudgetAmount"
-            placeholder="e.g., $350"
+            placeholder="e.g., ₹3500"
             required
             inputMode="decimal"
           />

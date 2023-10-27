@@ -12,7 +12,7 @@ interface AddExpenseFormProps {
   budgets: Budget[];
 }
 
-const AddExpenseForm: React.FC<AddExpenseFormProps> = ({ budgets }) => {
+const AddExpenseForm = ({ budgets }: AddExpenseFormProps) => {
   const fetcher = useFetcher();
   const isSubmitting = fetcher.state === "submitting";
 
@@ -67,13 +67,14 @@ const AddExpenseForm: React.FC<AddExpenseFormProps> = ({ budgets }) => {
         <div className="grid-xs" hidden={budgets.length === 1}>
           <label htmlFor="newExpenseBudget">Budget Category</label>
           <select name="newExpenseBudget" id="newExpenseBudget" required>
-            {budgets
-              .sort((a, b) => a.createdAt - b.createdAt)
-              .map((budget) => (
-                <option key={budget.id} value={budget.id}>
-                  {budget.name}
-                </option>
-              ))}
+            {budgets.length > 0 &&
+              budgets
+                .sort((a, b) => a.createdAt - b.createdAt)
+                .map((budget) => (
+                  <option key={budget.id} value={budget.id}>
+                    {budget.name}
+                  </option>
+                ))}
           </select>
         </div>
         <input type="hidden" name="_action" value="createExpense" />

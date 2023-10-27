@@ -2,7 +2,13 @@ import React from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { toast } from "react-toastify";
 
-import { AddBudgetForm, AddExpenseForm, BudgetItem, Intro, Table } from "../components";
+import {
+  AddBudgetForm,
+  AddExpenseForm,
+  BudgetItem,
+  Intro,
+  Table,
+} from "../components";
 import {
   createBudget,
   createExpense,
