@@ -10,7 +10,7 @@ Sure, here's a sample README for your budget management web application:
 
 Here is a snapshot of the project:
 
-![Snapshot](src\assets\projectSnap.png)
+![Snapshot](src/assets/projectSnap.png)
 
 ## Features
 
