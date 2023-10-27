@@ -44,7 +44,7 @@
 
 ## Live Demo
 
-Explore the live version of the Personal Budget Manager here: [Example Live Link](https://budgeting-app-drab.vercel.app)
+Explore the live version of the Personal Budget Manager here: [Live Link](https://budgeting-app-drab.vercel.app)
 
 ## Technologies Used
 
