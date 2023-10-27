@@ -6,6 +6,12 @@ Sure, here's a sample README for your budget management web application:
 
 **Personal Budget Manager** is a web application that helps you take control of your finances. It provides a simple and user-friendly interface for managing budgets and expenses. Whether you want to create a new budget, track your expenses, or start your journey to financial freedom, this app has got you covered.
 
+## Snapshot
+
+Here is a snapshot of the project:
+
+![Snapshot](src\assets\projectSnap.png)
+
 ## Features
 
 - **User Account**: Start your financial journey by creating a user account. Enter your name to get started.
@@ -43,6 +49,10 @@ Sure, here's a sample README for your budget management web application:
 
 4. **Open in Browser**: Open your web browser and visit `http://localhost:3000` to access the application.
 
+## Live Demo
+
+Explore the live version of the Personal Budget Manager here: [Example Live Link](https://budgeting-app-drab.vercel.app)
+
 ## Technologies Used
 
 - [React](https://reactjs.org/): A popular JavaScript library for building user interfaces.
@@ -57,10 +67,4 @@ This application uses `localStorage` to store user data, budgets, and expenses. 
 
 Contributions are welcome! Feel free to open issues or submit pull requests to help improve this project.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
-
-Feel free to customize this README to fit your project's specific details and requirements.
