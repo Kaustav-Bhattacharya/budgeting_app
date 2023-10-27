@@ -1,8 +1,12 @@
-// component import
+import React from "react";
 import { ExpenseItem } from "./expenseItem";
 
+interface TableProps {
+  expenses: any[];
+  showBudget?: boolean;
+}
 
-const Table = ({ expenses, showBudget = true }) => {
+const Table: React.FC<TableProps> = ({ expenses, showBudget = true }) => {
   return (
     <div className="table">
       <table>
@@ -26,4 +30,5 @@ const Table = ({ expenses, showBudget = true }) => {
     </div>
   );
 };
-export { Table };
+
+export default Table;
