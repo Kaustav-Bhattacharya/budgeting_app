@@ -6,12 +6,6 @@ Sure, here's a sample README for your budget management web application:
 
 **Personal Budget Manager** is a web application that helps you take control of your finances. It provides a simple and user-friendly interface for managing budgets and expenses. Whether you want to create a new budget, track your expenses, or start your journey to financial freedom, this app has got you covered.
 
-## Snapshot
-
-Here is a snapshot of the project:
-
-![Snapshot](src/assets/projectSnap.png)
-
 ## Features
 
 - **User Account**: Start your financial journey by creating a user account. Enter your name to get started.
