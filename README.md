@@ -1,4 +1,3 @@
-Sure, here's a sample README for your budget management web application:
 
 ---
 
