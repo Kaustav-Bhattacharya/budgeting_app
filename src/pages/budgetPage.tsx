@@ -1,13 +1,13 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import { toast } from "react-toastify";
-import { AddExpenseForm, Budget } from "../components/addExpenseForm";
+import { AddExpenseForm } from "../components/addExpenseForm";
 import { BudgetItem } from "../components/budgetItem";
 import { Table } from "../components/table";
 import { createExpense, deleteItem, getAllMatchingItems } from "../helpers";
 
 interface BudgetPageProps {
-  budget: Budget[]
+  budget: any
   expenses: any[]; // Replace 'any' with the actual expense type.
 }
 

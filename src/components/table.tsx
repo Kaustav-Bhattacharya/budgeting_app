@@ -31,4 +31,4 @@ const Table: React.FC<TableProps> = ({ expenses, showBudget = true }) => {
   );
 };
 
-export default Table;
+export { Table };

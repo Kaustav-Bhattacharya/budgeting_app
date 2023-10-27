@@ -4,9 +4,6 @@ import { toast } from "react-toastify";
 import {Table} from "../components/table";
 import { deleteItem, fetchData } from "../helpers";
 
-interface ExpensesPageProps {
-  expenses: any[]; // You should replace 'any' with the actual type of expenses.
-}
 
 async function expensesLoader() {
   const expenses = fetchData("expenses");
